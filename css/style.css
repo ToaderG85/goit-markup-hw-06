@@ -98,7 +98,7 @@ html {
     gap: 10px;
 }
 
-.client-contact-form label{
+.form-item {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -107,6 +107,16 @@ html {
     line-height: 1.1;
     letter-spacing: 0.01em;
     color: #757575;
+    position: relative;
+
+}
+
+.form-item svg {
+    fill: currentColor;
+    color: #212121;
+    position: absolute;
+    top: 30px;
+    left: 15px;
 }
 
 .client-contact-form input,
@@ -124,9 +134,11 @@ html {
 .client-contact-form textarea {
     resize: none;
     height: 120px;
+    padding: 15px 0px 0px 15px;
 }
-.client-contact-form textarea::placeholder {
-    padding: 15px;
+
+.client-contact-form input {
+    padding-left: 42px;
 }
 
 .client-contact-form p {
@@ -142,7 +154,7 @@ html {
     margin-top: 20px;
 }
 
-.client-contact-form button {
+.send-button {
     width: 200px;
     height: 50px;
     background: #2196F3;
