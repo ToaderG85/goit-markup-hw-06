@@ -22,37 +22,37 @@
                 <form class="client-contact-form">
                     <label class="form-item">
                         Name
-                        <svg width="12" height="12">
+                        <input type="text" name="name" /> 
+                        <svg id="symbol" width="12" height="12">
                             <use href="images/icons-svg.svg#icon-client"></use>
-                            </svg>
-                        <input type="text" name="name" />
-                      </label>
-                      <label class="form-item">
+                            </svg>          
+                    </label>
+                    <label class="form-item">
                         Telephone
-                        <svg width="13" height="13">
+                        <input type="tel" name="phone" />
+                        <svg id="symbol" width="13" height="13">
                             <use href="images/icons-svg.svg#icon-phone"></use>
                             </svg>
-                        <input type="tel" name="phone" />
-                      </label>
-                      <label class="form-item">
+                    </label>
+                    <label class="form-item">
                         E-mail
-                        <svg width="15" height="12">
+                        <input type="email" name="email" />
+                        <svg id="symbol" width="15" height="12">
                             <use href="images/icons-svg.svg#icon-e-mail"></use>
                             </svg>
-                        <input type="email" name="email" />
-                      </label>
-                      <label class="form-item">
+                    </label>
+                    <label class="form-item">
                         Comments
                         <textarea name="comments" rows="5" placeholder="Enter the text"></textarea>
-                      </label>
-                      <!--
-                      <p><svg width="16" height="15">
-                        <use href="images/icons-svg.svg#icon-empty-check"></use>
-                        </svg>
+                    </label>
+                    <label class="terms">
+                        <input type="checkbox">
+                        <span class="replace-checkbox"><svg>
+                            <use href="images/icons-svg.svg#icon-checked"></use>
+                            </svg></span>
                         I agree with the letter and accept the<a class="terms-link" href="terms.html">Terms and Conditions</a>
-                        </p>-->
-                      <button class="send-button" type="submit">Send</button>
-
+                    </label>
+                    <button class="send-button" type="submit">Send</button>
                 </form>
             </div>
         </div>
